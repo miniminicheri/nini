@@ -1,0 +1,153 @@
+#shipper ::-webkit-scrollbar { width: 5px; }
+#shipper ::-webkit-scrollbar-thumb { background-color: #e09db4; border: 1px solid #000; }
+#shipper ::-webkit-scrollbar-track { background-color: #000; }
+
+#shipper {
+ width: 500px;
+ margin: 25px auto;
+}
+#shipper .top {
+ padding: 25px;
+ color: #fff;
+ text-align: left;
+ color: #fff;
+ padding-left: 40px;
+ padding-top: 35px;
+ font-size: 35px;
+ font-weight: bold;
+ font-family: poppins;
+ background-color: #e09db4;
+ padding-bottom: 35px;
+}
+#shipper .middle {
+ width: 500px;
+ height: 300px;
+ overflow: hidden;
+}
+#shipper .bottom {
+ height: 80px;
+ background-color: #e09db4;
+ width: 500px;
+}
+#shipper input[type=checkbox] {
+ position: absolute;
+ top: -9999px;
+ left: -9999px;
+ display: none;
+}
+#shipper label { 
+cursor: pointer;
+
+transition: all 0.4s ease-in-out 0s;
+-webkit-transition: all 0.4s ease-in-out 0s;
+-moz-transition: all 0.4s ease-in-out 0s;
+-o-transition: all 0.4s ease-in-out 0s;
+}
+#shipper .middle2 {
+ opacity: 0;
+  background: rgba(0,0,0,0.0);
+ width: 400px;
+padding: 50px;
+ height: 200px;
+ line-height: 100px;
+ color: #000;
+ text-align: center;
+transition: all 0.4s ease-in-out 0s;
+-webkit-transition: all 0.4s ease-in-out 0s;
+-moz-transition: all 0.4s ease-in-out 0s;
+-o-transition: all 0.4s ease-in-out 0s;
+}
+
+#shipper input[type=checkbox]:checked ~ .middle2 {
+ background: rgba(0,0,0,0.8);
+opacity: 1;
+}
+#shipper .middle .middle2 {
+width: 500px;
+height: 300px;
+overflow: auto;
+text-align: justify;
+color: #000;
+font-family: arial;
+font-size: 10px;
+line-height: 110%;
+}
+
+#shipper .name {
+ width: 148px;
+ padding: 10px;
+ border: 1px solid #fff;
+ text-align: center;
+ border-bottom: 0px solid #000;
+ font-family: poppins;
+ font-size: 8px;
+ text-transform: uppercase;
+ font-weight: normal;
+ color: #fff;
+ letter-spacing: 1px;
+}
+
+#shipper .info {
+ width: 168px;
+ height: 168px;
+ overflow: auto;
+border: 1px solid #fff;
+}
+
+#shipper .info h1 {
+border-bottom: 1px solid #fff;
+color: #fff;
+font-family: poppins;
+font-size: 8px;
+letter-spacing: 1px;
+ font-weight: 300;
+display: block;
+padding: 4px;
+text-transform: uppercase;
+padding-bottom: 8px;
+padding-left: 8px;
+}
+
+#shipper .info .image {
+width: 168px;
+height: 75px;
+overflow: hidden;
+}
+
+#shipper .info .image img {
+height: 80px;
+}
+
+#shipper .para {
+width: 190px;
+height: 200px;
+padding: 10px;
+margin-left: 20px;
+}
+#shipper .para2 {
+width: 188px;
+height: 200px;
+overflow: auto;
+padding-right: 2px;
+font-family: roboto;
+font-size: 9px;
+line-height: 125%;
+text-align: justify;
+color: #fff;
+margin-top: -5px;
+}
+
+#shipper .para2 p {
+text-indent: 0px;
+}
+
+#shipper .para2 p b {
+ font-family: poppins; 
+ float: left;
+ color: #abf700;
+ margin: 3px auto;
+ margin-right: 10px;
+ margin-top: 1px;
+ font-weight: 300px;
+ margin-bottom: 0px;
+}.merc_cred { text-align: center; font-family: calibri; font-size: 8px; text-transform: uppercase; margin-top: 00px; margin-bottom: 25px; }
